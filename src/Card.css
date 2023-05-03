@@ -1,0 +1,24 @@
+img {
+    max-width: 100%;
+}
+
+.divCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60vw;
+    /* background-color:blueviolet; */
+}
+
+.divImg {
+    width: 30%;
+
+}
+
+.divText {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color:rgb(129, 210, 232);
+
+}
