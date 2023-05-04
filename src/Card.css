@@ -1,5 +1,7 @@
 img {
     max-width: 100%;
+    margin: 10px;
+
 }
 
 .divCard {
@@ -15,6 +17,8 @@ img {
 
 .divImg {
     width: 30%;
+    display: flex;
+    justify-content: center;
 /*    min-width: 20vw;*/
 }
 
