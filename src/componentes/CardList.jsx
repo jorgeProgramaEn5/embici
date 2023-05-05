@@ -1,5 +1,5 @@
 import React from 'react';
-import Bicicletas from './Bicicletas.js'
+import Bicicletas from './Bicicletas'
 
 function CardList() {
 	return (
@@ -11,11 +11,11 @@ function CardList() {
 				color="Amarillo"
 				talla="56"
 				descripcion="Una bicicleta MTB es una bicicleta todo terreno 
-											diseñada para enfrentar terrenos difíciles y variados, 
-											como montañas, senderos y terrenos rocosos. MTB significa 
-											Mountain Bike en inglés. Estas bicicletas tienen características 
-											especiales que les permiten manejar mejor terrenos irregulares y 
-											montañosos. "
+				diseñada para enfrentar terrenos difíciles y variados, 
+				como montañas, senderos y terrenos rocosos. MTB significa 
+				Mountain Bike en inglés. Estas bicicletas tienen características 
+				especiales que les permiten manejar mejor terrenos irregulares y 
+				montañosos. "
 			/>
 
 			<Bicicletas 
