@@ -2,21 +2,21 @@ import React from 'react';
 import '../css/Bicicletas.css';
 
 
-function Bicicletas() {
+function Bicicletas(props) {
 	return(
 		<div className='contenedor_bicicletas'>
 			<img 
 				className='img_bicicletas'
-				src={require('../img/bici_mtb.png')}
+				src={require(`../img/${props.img}.png`)}
 				alt='bicicleta'
 			/>
 			<div className='text_bicicletas'>
-				<h2>Mountabike</h2>
-				<h3>Fabricante Gost, Color Amarillo, Talla 56 </h3>
-				<p>No es necesario descargar un nuevo navegador web.
-					Microsoft recomienda usar Microsoft Edge para disfrutar 
-					de una experiencia web rápida, segura y moderna que puede 
-					ayudarle a ahorrar tiempo y dinero.</p>
+				<h2>{props.tipo}</h2>
+				<h3>Fabricante {props.fabricante}, 
+					Color {props.color}, 
+					Talla {props.talla}
+				</h3>
+				<p>{props.descripcion}</p>
 			</div>
 		</div>
 	)
