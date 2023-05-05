@@ -5,11 +5,13 @@ import '../css/Bicicletas.css';
 function Bicicletas(props) {
 	return(
 		<div className='contenedor_bicicletas'>
-			<img 
-				className='img_bicicletas'
-				src={require(`../img/${props.img}.png`)}
-				alt='bicicleta'
-			/>
+			<div className='contenedor_img'>
+				<img 
+					className='img_bicicletas'
+					src={require(`../img/${props.img}.png`)}
+					alt='bicicleta'
+				/>
+			</div>
 			<div className='text_bicicletas'>
 				<h2>{props.tipo}</h2>
 				<h3>Fabricante {props.fabricante}, 
