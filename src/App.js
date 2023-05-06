@@ -2,6 +2,7 @@ import React from 'react';
 import './estilos/App.css';
 import Display from './componentes/Display';
 import Boton from './componentes/Boton';
+import banner_bici from './img/banner_bici.jpg'
 
 
 class App extends React.Component {
@@ -14,15 +15,34 @@ class App extends React.Component {
   render() { 
     return (
       <div className="App">
-        <h1>
-          Cantidad de km que deseas recorrer
-        </h1>
+        <div className='contendor_app'>
+          <h1>
+            Cantidad de km que deseas recorrer
+          </h1>
 
-        <Display />
+          <div className="contenedor_img">
+            <img 
+              className='img'
+              src={banner_bici}
+              alt='baner'
+            />
+          </div>
 
-        <Boton text='Click' />
-        
-        <Boton text='Reiniciar'/>
+          <Display />
+
+          <div className='contendor_boton'>
+            <Boton 
+              text='Click' 
+              esBotonClick= ''
+            />
+
+            <Boton 
+              text='Reiniciar'
+              esBotonClick= 'true'
+            />
+
+          </div>
+        </div>
       </div>
     );
   }

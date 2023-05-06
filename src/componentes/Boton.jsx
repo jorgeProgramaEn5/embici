@@ -1,6 +1,6 @@
 import '../estilos/Boton.css';
 
-const Boton = (props)=>{
+const Boton = ({ text, esBotonClick })=>{
 
   // const [contador, setContador] = useState(0);
 
@@ -11,7 +11,11 @@ const Boton = (props)=>{
 
   return(
     <div>
-      <div className='boton' >{props.text}</div>
+      <button 
+        className={ esBotonClick ? 'boton btn-click' : 'boton btn-reiniciar' }
+      >
+      {text}
+      </button >
     </div>
   )
 }
