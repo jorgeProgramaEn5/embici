@@ -1,18 +1,17 @@
-import './App.css';
-import CardList from './CardList';
+import './estilos/App.css';
+import Display from './componentes/Display';
+import Boton from './componentes/Boton';
 
 
 function App() {
   return (
     <div className="App">
       <h1>
-        BICICLETAS
+        Cantidad de km que deseas recorrer
       </h1>
-      <h2>
-        Estos son los tipos de bicicletas que 
-        puedes encontrar en nuestra tienda
-      </h2>
-      <CardList />
+      <Display />
+      <Boton text='Click' />
+      <Boton text='Reiniciar'/>
     </div>
   );
 }

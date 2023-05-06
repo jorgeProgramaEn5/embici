@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.boton {
+    width: 150px;
+    height: 55px;
+    background-color: skyblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    border: solid 1px black;
+}
