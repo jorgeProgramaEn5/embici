@@ -14,15 +14,16 @@ const Billing = () => (
     </div>
     <div className={layout.sectionInfo}>
       <h2 className={style.heading2}>
-        Easily control your <br className='sm:block hidden' />
-        billing & invocing
+        Paga de manera <br className='sm:block hidden' />
+        facil y segura
       </h2>
       <p className={`${style.paragraph} max-w-[470px] mt-5`}>
-        Lorem ipsum, dolor sit amet consectetur adipisicing 
-        elit. Minus, debitis dolorem! Deserunt nisi tenetur 
-        facere magni cum, ratione praesentium in temporibus, 
-        sint quaerat autem laborum voluptate neque, at vitae 
-        tempore.
+      "En nuestro compromiso por ofrecerte el mejor servicio posible, 
+      hemos implementado una forma de pago digital que garantiza seguridad 
+      y eficiencia en cada transacción. Utilizamos las plataformas de pago 
+      Transfermovil, Enzona y CubaPay. Te brindamos una experiencia de pago 
+      fácil y segura, olvídate de preocuparte por el manejo de efectivo.
+      ¡Confía en nosotros para una mensajería moderna y segura!"
       </p>
       <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
         <img 

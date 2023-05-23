@@ -1,5 +1,5 @@
 import React from 'react';
-import {logo, close, menu, logo_bici} from '../assets';
+import { close, menu, logo_bici} from '../assets';
 import { navLinks } from '../constants';
 import { useState } from 'react';
 

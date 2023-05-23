@@ -28,12 +28,16 @@ const Business = () => {
     <section id='features' className={`${layout.section}`}>
       <div className={layout.sectionInfo}>
         <h2 className={style.heading2}>
-          You do the bussiness, <br className='sm:block hidden'/> we'll handle the money
+          Contacte con el <br className='sm:block hidden'/> mensajero mas cercano
         </h2>
-        <p className={`${style.paragraph} max-w-[470px] mt-5`}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis 
-          blanditiis nihil error eum! Laboriosam, delectus. Dolorem delectus at suscipit 
-          distinctio natus. Qui tempora voluptas eligendi aliquid iste sint dolor!
+        <p className={`${style.paragraph} max-w-[570px] mt-5`}>
+        "Cuando solicitas nuestro servicio, nos encargamos 
+        de encontrar al mensajero perfecto para ti, ¡y al que se 
+        encuentre más cercano al punto de recogida! De esta manera 
+        ahorras tiempo y dinero. En lugar de preocuparte por 
+        buscar un mensajero confiable y económico, déjanos hacer el 
+        trabajo por ti. ¡Confía en nosotros para una mensajería 
+        eficiente y sin complicaciones!"
         </p>
 
         <Buttons styles='mt-10' />

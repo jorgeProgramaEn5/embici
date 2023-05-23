@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Seriedad",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Intentamos mejorar nuestros servicios cada dia y posicionarnos como el servicio de mensajeria numero uno.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Seguros",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Cada mensajero es sometido a una investigacion rigurosa, lo que nos permite contar con un personal totalmente confiable.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Comunicacion",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Mantenemos comunicacion directa hasta el cierre del servicio, con el mensajero asi como con el cliente.",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+    "¡La mejor opción en mensajería en la ciudad! Me encanta que utilicen bicicletas para sus entregas, lo que contribuye al cuidado del medio ambiente.",
+    name: "Roxana Castillo",
+    title: "Cliente",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Increíble empresa de mensajería. Los mensajeros son muy profesionales y amables, y siempre llegan a tiempo. Me siento muy satisfecho con su servicio!.",
+    name: "Javier Esteban",
+    title: "Cliente",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    "¡Excelente servicio! Me encantó la rapidez y eficiencia con la que se realizó mi entrega. Definitivamente utilizaré sus servicios de nuevo.",
+    name: "Dayron Montes",
+    title: "Cliente",
     img: people03,
   },
 ];
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Usuarios Activos",
+    value: "50+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Mensajeros Ativos",
+    value: "30+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Mensajerias Completadas",
+    value: "250+",
   },
 ];
 

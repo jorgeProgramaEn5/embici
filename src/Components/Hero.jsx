@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style';
-import { discount, robot, robot_bici, } from '../assets';
+import { discount, robot_bici, } from '../assets';
 import GetStarted from './GetStarted';
 
 const Hero = () => (
@@ -15,8 +15,8 @@ const Hero = () => (
 
       <div className='flex flex-row justify-between items-center w-full'>
         <h1 className='flex-1 font-poppins font-simibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-          The Next <br className='sm:block hidden'/>
-          <span className='text-gradient'>Generation</span>
+          El futuro de la<br className='sm:block hidden'/>
+          <span className='text-gradient'>mensajería</span>
         </h1>
         <div className='ss:flex hidden md:mr-4 mr-0'>
           <GetStarted/>
@@ -26,12 +26,14 @@ const Hero = () => (
         className='font-poppins font-semibild ss:text-[68px] text-[52px] 
         text-white ss:leading-[100px] leading-[75px] w-full'
       >
-        Payment Method
+        es en bicicleta.
       </h1>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Nuestro equipo se caracteriza por brindarle al cliente la mas alta calidad en el servicio
-        , y con la mayor tecnologia existente hasta el momengto. Mantenemos comunicacion con los usuarios
-        en todo momento, aumentado asi seguridad y confiabilidad de nuestro servicio
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}>
+      "Nos preocupamos por ofrecer una solución de mensajería 
+      que sea eficiente, económica y sostenible. Ofrecemos un servicio 
+      que enlaza clientes y mensajeros, para que puedan conectarse 
+      fácilmente. Al utilizar nuestra plataforma, ahorras tiempo y 
+      dinero. ¡Únete a nosotros para una mensajería más ecológica y eficiente!"
       </p>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

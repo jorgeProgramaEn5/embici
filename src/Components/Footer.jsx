@@ -9,9 +9,8 @@ const Footer = () => (
     <div className={`md:flex-row flex-col mb-8 w-full ${style.flexStart}`}>
       <div>
         <img src={logo_bici} alt='logo' className='w-[266px] h-[72px] object-contain'/>
-        <p className={`${style.paragraph} text-left max-w-[420px] mt-5`}>  
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Amet explicabo
+        <p className={`${style.paragraph} text-left max-w-[420px] mt-5 mr-10`}>  
+        ¡Llegamos antes, gastamos menos, <br /> cuidamos más!
         </p>
       </div>
       <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>

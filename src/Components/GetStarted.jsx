@@ -6,7 +6,7 @@ import { arrowUp } from '../assets'
 const Getstate = () => {
   return (
     <div 
-      className={`${styles.flexCenter} w-[140px] h-[140px] bg-blue-gradient 
+      className={`${styles.flexCenter} w-[100px] h-[100px] bg-blue-gradient 
       rounded-full cursor-pointer p-[2px]`}
     >
       <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
