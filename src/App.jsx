@@ -1,20 +1,36 @@
-import './App.css';
-import CardList from './componentes/CardList';
+import React from 'react';
+import styles from './style'; 
+import { Navbar, Billing, CardDeal, Business, Clients, CTA, Stats, Footer, Testimonials, Hero } from "./Components";
 
 
-function App() {
-  return (
-    <div className="App">
-      <div className='contenedor_principal'>
-        <h1>BICICLETAS</h1>
-        <h2>
-          Estos son los tipos de bicicletas que 
-          puedes encontrar en nuestra tienda
-        </h2>
-        <CardList />
+const App = () => (
+  <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
       </div>
     </div>
-  );
-}
+
+    <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Stats /> 
+        <Business />
+        <Billing /> 
+        <CardDeal /> 
+        <Testimonials /> 
+        <Clients /> 
+        <CTA />
+        <Footer />
+      </div>
+    </div>
+
+  </div>
+)
 
 export default App;
