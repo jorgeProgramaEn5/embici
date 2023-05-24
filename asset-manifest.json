@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/embici/static/css/main.a63c22b9.css",
-    "main.js": "/embici/static/js/main.77fcf99c.js",
+    "main.css": "/embici/static/css/main.064f87b5.css",
+    "main.js": "/embici/static/js/main.958bbc8e.js",
     "static/media/robot.png": "/embici/static/media/robot.b3924d6a4b8b19ef9de9.png",
     "static/media/robot_bici.png": "/embici/static/media/robot_bici.1bd210c76544b2f60b59.png",
     "static/media/card.png": "/embici/static/media/card.a2e9df80e8b4106cace9.png",
@@ -25,11 +25,11 @@
     "static/media/quotes.svg": "/embici/static/media/quotes.c8bb1da8320f056e0e1cf903465cc3a6.svg",
     "index.html": "/embici/index.html",
     "static/media/facebook.svg": "/embici/static/media/facebook.34082cd87ee9398b19edd541204c2227.svg",
-    "main.a63c22b9.css.map": "/embici/static/css/main.a63c22b9.css.map",
-    "main.77fcf99c.js.map": "/embici/static/js/main.77fcf99c.js.map"
+    "main.064f87b5.css.map": "/embici/static/css/main.064f87b5.css.map",
+    "main.958bbc8e.js.map": "/embici/static/js/main.958bbc8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a63c22b9.css",
-    "static/js/main.77fcf99c.js"
+    "static/css/main.064f87b5.css",
+    "static/js/main.958bbc8e.js"
   ]
 }
