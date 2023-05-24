@@ -14,17 +14,17 @@ const Hero = () => (
       </div>
 
       <div className='flex flex-row justify-between items-center w-full'>
-        <h1 className='flex-1 font-poppins font-simibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-          El futuro de la<br className='sm:block hidden'/>
-          <span className='text-gradient'>mensajería</span>
+        <h1 className='flex-1 font-poppins font-simibold ss:text-[72px] text-[35px] text-white ss:leading-[100px] leading-[65px]'>
+          El futuro de la<br className='sm:block hidden'/> {' '}
+          <span className='text-gradient ss:text-[72px] text-[35px]'>mensajería</span>
         </h1>
         <div className='ss:flex hidden md:mr-4 mr-0'>
           <GetStarted/>
         </div>
       </div>
       <h1 
-        className='font-poppins font-semibild ss:text-[68px] text-[52px] 
-        text-white ss:leading-[100px] leading-[75px] w-full'
+        className='font-poppins font-semibild ss:text-[68px] text-[35px] 
+        text-white ss:leading-[100px] leading-[65px] w-full'
       >
         es en bicicleta.
       </h1>
